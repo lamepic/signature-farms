@@ -10,42 +10,38 @@ const tableData = [
   {
     avatar: user2,
     name: "Martin Gover",
-    email: "hgover@gmail.com",
-    project: "Lading pro React",
-    status: "done",
-    weeks: "35",
-    budget: "95K",
+    quantity: "40",
+    deliveryStatus: "Delivered",
+    paymentStatus: "Paid",
+    price: "1000",
   },
   {
     avatar: user3,
     name: "Gulshan Gover",
-    email: "hgover@gmail.com",
-    project: "Elite React",
-    status: "holt",
-    weeks: "35",
-    budget: "95K",
+    quantity: "100",
+    deliveryStatus: "Delivered",
+    paymentStatus: "Paid",
+    price: "1000",
   },
   {
     avatar: user4,
     name: "Pavar Gover",
-    email: "hgover@gmail.com",
-    project: "Flexy React",
-    status: "pending",
-    weeks: "35",
-    budget: "95K",
+    quantity: "400",
+    deliveryStatus: "Delivered",
+    paymentStatus: "Paid",
+    price: "1000",
   },
   {
     avatar: user5,
-    name: "Hanna Gover",
-    email: "hgover@gmail.com",
-    project: "Ample React",
-    status: "done",
-    weeks: "35",
-    budget: "95K",
+    name: "234",
+    quantity: "20",
+    deliveryStatus: "Delivered",
+    paymentStatus: "Paid",
+    price: "1000",
   },
 ];
 
-const CustomerTable = () => {
+const PendingOrders = () => {
   return (
     <Card>
       <CardBody>
@@ -54,9 +50,9 @@ const CustomerTable = () => {
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Location</th>
-                <th>Orders made</th>
-                <th>Status</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Delivery Status</th>
               </tr>
             </thead>
             <tbody>
@@ -77,18 +73,9 @@ const CustomerTable = () => {
                       </div>
                     </div>
                   </td>
-                  <td>{tdata.project}</td>
-                  <td>
-                    {tdata.status === "pending" ? (
-                      <span className="p-2 bg-danger rounded-circle d-inline-block ms-3" />
-                    ) : tdata.status === "holt" ? (
-                      <span className="p-2 bg-warning rounded-circle d-inline-block ms-3" />
-                    ) : (
-                      <span className="p-2 bg-success rounded-circle d-inline-block ms-3" />
-                    )}
-                  </td>
-
-                  <td>{tdata.budget}</td>
+                  <td>{tdata.quantity}</td>
+                  <td>{tdata.price}</td>
+                  <td>{tdata.deliveryStatus}</td>
                 </tr>
               ))}
             </tbody>
@@ -99,4 +86,4 @@ const CustomerTable = () => {
   );
 };
 
-export default CustomerTable;
+export default PendingOrders;
