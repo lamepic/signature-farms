@@ -16,7 +16,7 @@ function AddCustomer() {
     <div>
       <Card>
         <CardBody>
-          <div>
+          <div className="pt-4">
             <Row>
               <Col span={12}>
                 <Form
