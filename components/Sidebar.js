@@ -10,30 +10,26 @@ const navigation = [
     icon: "bi bi-speedometer2",
   },
   {
-    title: "Alert",
+    title: "Customers",
     href: "/ui/alerts",
     icon: "bi bi-bell",
   },
   {
-    title: "Badges",
+    title: "Orders",
     href: "/ui/badges",
     icon: "bi bi-patch-check",
   },
   {
-    title: "Buttons",
+    title: "Inventory",
     href: "/ui/buttons",
     icon: "bi bi-hdd-stack",
   },
   {
-    title: "Cards",
+    title: "Sales",
     href: "/ui/cards",
     icon: "bi bi-card-text",
   },
-  {
-    title: "Grid",
-    href: "/ui/grid",
-    icon: "bi bi-columns",
-  },
+
   {
     title: "Table",
     href: "/ui/tables",
@@ -48,11 +44,6 @@ const navigation = [
     title: "Breadcrumbs",
     href: "/ui/breadcrumbs",
     icon: "bi bi-link",
-  },
-  {
-    title: "About",
-    href: "/about",
-    icon: "bi bi-people",
   },
 ];
 
