@@ -1,4 +1,5 @@
 import { Tabs } from "antd";
+import AddOrder from "../components/Orders/AddOrder";
 import CompletedOrders from "../components/Orders/CompletedOrders";
 import PendingOrders from "../components/Orders/PendingOrders";
 
@@ -16,6 +17,9 @@ function Orders() {
         </TabPane>
         <TabPane tab="Completed Orders" key="2">
           <CompletedOrders />
+        </TabPane>
+        <TabPane tab="Add Order" key="3">
+          <AddOrder />
         </TabPane>
       </Tabs>
     </div>
