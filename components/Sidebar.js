@@ -20,8 +20,8 @@ const navigation = [
     icon: "bi bi-patch-check",
   },
   {
-    title: "Inventory",
-    href: "/ui/buttons",
+    title: "Expenses",
+    href: "/expenses",
     icon: "bi bi-hdd-stack",
   },
   {
