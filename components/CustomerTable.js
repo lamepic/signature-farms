@@ -8,15 +8,6 @@ import user5 from "../assets/images/users/user5.jpg";
 
 const tableData = [
   {
-    avatar: user1,
-    name: "Jonathan Gover",
-    email: "hgover@gmail.com",
-    project: "Flexy React",
-    status: "pending",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
     avatar: user2,
     name: "Martin Gover",
     email: "hgover@gmail.com",
@@ -58,20 +49,14 @@ const CustomerTable = () => {
   return (
     <Card>
       <CardBody>
-        <CardTitle tag="h5">Project Listing</CardTitle>
-        <CardSubtitle className="mb-2 text-muted" tag="h6">
-          Overview of the projects
-        </CardSubtitle>
         <div className="table-responsive">
           <Table className="text-nowrap mt-3 align-middle" borderless>
             <thead>
               <tr>
-                <th>Team Lead</th>
-                <th>Project</th>
-
+                <th>Name</th>
+                <th>Location</th>
+                <th>Orders made</th>
                 <th>Status</th>
-
-                <th>Budget</th>
               </tr>
             </thead>
             <tbody>
