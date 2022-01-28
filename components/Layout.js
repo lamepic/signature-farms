@@ -11,7 +11,7 @@ const FullLayout = ({ children }) => {
 
   return (
     <main>
-      <div className="pageWrapper d-md-block d-lg-flex">
+      <div className="pageWrapper d-md-block d-lg-flex flex-row">
         {/******** Sidebar **********/}
         <aside
           className={`sidebarArea shadow bg-white ${
@@ -22,7 +22,7 @@ const FullLayout = ({ children }) => {
         </aside>
         {/********Content Area**********/}
 
-        <div className="contentArea">
+        <div className="contentArea overflow-y-scroll">
           {/********header**********/}
           <Header showMobmenu={() => showMobilemenu()} />
 

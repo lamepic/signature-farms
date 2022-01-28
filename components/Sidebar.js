@@ -11,12 +11,12 @@ const navigation = [
   },
   {
     title: "Customers",
-    href: "/ui/alerts",
-    icon: "bi bi-bell",
+    href: "/customers",
+    icon: "bi bi-person",
   },
   {
     title: "Orders",
-    href: "/ui/badges",
+    href: "/orders",
     icon: "bi bi-patch-check",
   },
   {
@@ -52,7 +52,7 @@ const Sidebar = ({ showMobilemenu }) => {
   const location = curl.pathname;
 
   return (
-    <div className="p-3">
+    <div className="p-3 position-fixed">
       <div className="d-flex align-items-center">
         <Logo />
         <Button

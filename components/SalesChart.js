@@ -1,17 +1,19 @@
 import { Card, CardBody, CardSubtitle, CardTitle } from "reactstrap";
 import dynamic from "next/dynamic";
 
-const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
+const Chart = dynamic(() => import("react-apexcharts"), {
+  ssr: false,
+});
 
 const SalesChart = () => {
   const chartoptions = {
     series: [
       {
-        name: "Iphone 13",
+        name: "Eggs",
         data: [0, 31, 40, 28, 51, 42, 109, 100],
       },
       {
-        name: "Oneplue 9",
+        name: "Birds",
         data: [0, 11, 32, 45, 32, 34, 52, 41],
       },
     ],
