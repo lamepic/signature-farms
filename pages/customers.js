@@ -1,6 +1,6 @@
 import { Tabs } from "antd";
-import AddCustomer from "../components/AddCustomer";
-import CustomerTable from "../components/CustomerTable";
+import AddCustomer from "../components/Customer/AddCustomer";
+import CustomerTable from "../components/Customer/CustomerTable";
 const { TabPane } = Tabs;
 
 function callback(key) {
