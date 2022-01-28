@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
-// import Header from "./header/Header";
 import Sidebar from "../components/Sidebar";
+import Header from "./Header";
 
 const FullLayout = ({ children }) => {
   const [open, setOpen] = React.useState(false);
@@ -24,7 +24,7 @@ const FullLayout = ({ children }) => {
 
         <div className="contentArea">
           {/********header**********/}
-          {/* <Header showMobmenu={() => showMobilemenu()} /> */}
+          <Header showMobmenu={() => showMobilemenu()} />
 
           {/********Middle Content**********/}
           <Container className="p-4 wrapper" fluid>
