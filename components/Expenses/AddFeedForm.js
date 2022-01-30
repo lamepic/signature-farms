@@ -31,8 +31,8 @@ const AddFeedForm = ({ visible, onCreate, onCancel }) => {
         }}
       >
         <Form.Item
-          name="title"
-          label="Title"
+          name="quantity"
+          label="Quantity"
           rules={[
             {
               required: true,
@@ -42,8 +42,8 @@ const AddFeedForm = ({ visible, onCreate, onCancel }) => {
         >
           <Input />
         </Form.Item>
-        <Form.Item name="description" label="Description">
-          <Input type="textarea" />
+        <Form.Item name="price" label="Price">
+          <Input />
         </Form.Item>
       </Form>
     </Modal>

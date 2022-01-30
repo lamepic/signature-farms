@@ -24,27 +24,27 @@ const navigation = [
     href: "/expenses",
     icon: "bi bi-hdd-stack",
   },
-  {
-    title: "Sales",
-    href: "/ui/cards",
-    icon: "bi bi-card-text",
-  },
+  // {
+  //   title: "Sales",
+  //   href: "/ui/cards",
+  //   icon: "bi bi-card-text",
+  // },
 
-  {
-    title: "Table",
-    href: "/ui/tables",
-    icon: "bi bi-layout-split",
-  },
-  {
-    title: "Forms",
-    href: "/ui/forms",
-    icon: "bi bi-textarea-resize",
-  },
-  {
-    title: "Breadcrumbs",
-    href: "/ui/breadcrumbs",
-    icon: "bi bi-link",
-  },
+  // {
+  //   title: "Table",
+  //   href: "/ui/tables",
+  //   icon: "bi bi-layout-split",
+  // },
+  // {
+  //   title: "Forms",
+  //   href: "/ui/forms",
+  //   icon: "bi bi-textarea-resize",
+  // },
+  // {
+  //   title: "Breadcrumbs",
+  //   href: "/ui/breadcrumbs",
+  //   icon: "bi bi-link",
+  // },
 ];
 
 const Sidebar = ({ showMobilemenu }) => {

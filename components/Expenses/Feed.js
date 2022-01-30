@@ -19,20 +19,6 @@ const tableData = [
     paymentStatus: "Paid",
     price: "1000",
   },
-  {
-    name: "Pavar Gover",
-    quantity: "400",
-    deliveryStatus: "Delivered",
-    paymentStatus: "Paid",
-    price: "1000",
-  },
-  {
-    name: "234",
-    quantity: "20",
-    deliveryStatus: "Delivered",
-    paymentStatus: "Paid",
-    price: "1000",
-  },
 ];
 
 function Feed() {
